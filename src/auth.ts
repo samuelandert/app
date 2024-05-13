@@ -13,4 +13,5 @@ export const { handle, signIn, signOut } = SvelteKitAuth({
       from: process.env.EMAIL_FROM,
     }),
   ],
+  trustHost: true,
 })
